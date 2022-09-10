@@ -4,7 +4,7 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { TodoAppComponentModule } from 'src/pages/index.module';
+import { TodoAppComponentModule } from '../pages/index.module';
 
 @NgModule({
   imports: [BrowserModule, FormsModule, TodoAppComponentModule],

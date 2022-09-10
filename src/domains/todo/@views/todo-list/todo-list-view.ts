@@ -1,3 +1,3 @@
-import { View } from '../../@common/core/view';
+import { View } from '../../../@common/core/view';
 
 export type TodoListView = View;

@@ -5,5 +5,6 @@ import { TodoComponent } from './todo.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [TodoComponent],
+  exports: [TodoComponent],
 })
 export class TodoComponentModule {}
