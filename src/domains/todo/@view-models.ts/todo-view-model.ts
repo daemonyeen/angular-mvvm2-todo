@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
-import { BehaviorSubject, Subject } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 import { takeUntil } from 'rxjs/operators';
-import { ViewModel } from 'src/domains/@common/core/view-model';
+import { ViewModel } from '../../@common/core/view-model';
 import { TodoModel } from '../@models/todo-model';
 import { Todo } from '../@types/todo';
 import { TodoListView } from '../@views/todo-list/todo-list-view';
