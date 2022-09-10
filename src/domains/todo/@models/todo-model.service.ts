@@ -12,7 +12,7 @@ import {
 } from '../@types/todo-http';
 import { TodoModel } from './todo-model';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class TodoModelService implements TodoModel {
   /**
    * In this example the server is emulated, in real-world
@@ -68,6 +68,6 @@ export class TodoModelService implements TodoModel {
 
     todo.isCompleted = true;
 
-    return todo as Readonly<Todo>;
+    return of(todo as Todo);
   }
 }
